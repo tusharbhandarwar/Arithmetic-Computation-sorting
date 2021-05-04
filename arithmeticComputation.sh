@@ -8,6 +8,8 @@ read -p "Enter value for c" c
 
 echo $(( $a + $b * $c ))
 
+echo $(( ($a * $b) + $c ))
+
 
 
 
